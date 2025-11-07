@@ -1,170 +1,287 @@
-# 🚀 Bitcoin Trader Performance vs Market Sentiment Analysis# 🚀 Bitcoin Trader Performance vs Market Sentiment Analysis# 🚀 Bitcoin Trader Performance vs Market Sentiment Analysis# Bitcoin Trader Performance vs Market Sentiment Analysis
+# 🚀 Bitcoin Trader Performance vs Market Sentiment Analysis# 🚀 Bitcoin Trader Performance vs Market Sentiment Analysis
 
-<div align="center"><div align="center"><div align="center">## 📊 Project Overview
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://crypto-market-analysis.streamlit.app)[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://crypto-market-analysis.streamlit.app)[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://crypto-market-analysis.streamlit.app)This project provides a comprehensive analysis of the relationship between Bitcoin trader performance on Hyperliquid and market sentiment (Fear & Greed Index). It includes both a detailed Jupyter Notebook for exploratory analysis and an advanced, interactive Streamlit dashboard.
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+<div align="center"><div align="center">
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-**An advanced analytics platform for understanding cryptocurrency trading performance and market sentiment**[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
-[Live Demo](https://crypto-market-analysis.streamlit.app) • [Report Bug](../../issues) • [Request Feature](../../issues)**An advanced analytics platform for understanding cryptocurrency trading performance and market sentiment**[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)## 📁 Project Structure
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://crypto-market-analysis.streamlit.app)[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://crypto-market-analysis.streamlit.app)
 
-</div>[Live Demo](https://crypto-market-analysis.streamlit.app) • [Report Bug](../../issues) • [Request Feature](../../issues)_An advanced analytics platform for understanding the relationship between cryptocurrency trading performance and market sentiment_```
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
----</div>.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📋 Table of Contents---[Live Demo](https://crypto-market-analysis.streamlit.app) • [Report Bug](../../issues) • [Request Feature](../../issues)├── fear_greed_index.csv # Bitcoin Fear & Greed Index data
 
-- [Overview](#-overview)## 📋 Table of Contents├── historical_data.csv # Hyperliquid trading data
 
-- [Key Features](#-key-features)
+**Advanced analytics platform analyzing Bitcoin trading performance and market sentiment****Advanced analytics platform analyzing Bitcoin trading performance and market sentiment**
 
-- [Live Demo](#-live-demo)- [Overview](#-overview)</div>├── trader_sentiment_analysis.ipynb # Comprehensive Jupyter Notebook analysis
 
-- [Installation](#-installation)
 
-- [Usage](#-usage)- [Key Features](#-key-features)
+[Live Demo](https://crypto-market-analysis.streamlit.app) • [Report Bug](../../issues) • [Request Feature](../../issues)[Live Demo](https://crypto-market-analysis.streamlit.app) • [Report Bug](../../issues) • [Request Feature](../../issues)
 
-- [Project Structure](#-project-structure)
 
-- [Data Sources](#-data-sources)- [Live Demo](#-live-demo)├── streamlit_app.py # Interactive Streamlit dashboard
 
-- [Dashboard Features](#-dashboard-features)
+</div></div>
 
-- [Technologies](#-technologies)- [Installation](#-installation)
 
-- [Troubleshooting](#-troubleshooting)
 
-- [Author](#-author)- [Usage](#-usage)---├── requirements.txt # Python dependencies
+------
 
-- [License](#-license)
 
-- [Project Structure](#-project-structure)
 
----
+## 🎯 Overview## 📋 Table of Contents
 
-- [Data Sources](#-data-sources)└── README.md # This file
 
-## 🎯 Overview
 
-- [Dashboard Features](#-dashboard-features)
-
-This project analyzes the relationship between **Bitcoin trader performance** on Hyperliquid DEX and **market sentiment** measured by the Fear & Greed Index. It combines statistical analysis with interactive visualizations to discover actionable trading insights.
-
-- [Technologies](#-technologies)## 📋 Table of Contents```
-
-### Project Context
-
-- [Troubleshooting](#-troubleshooting)
-
-- **Author:** Ayush Singh
-
-- **Email:** Ayusingh693@gmail.com- [Author](#-author)- [Overview](#-overview)## 🚀 Quick Start
-
-- **Phone:** +91 7031678999
-
-- **Purpose:** Advanced Data Analysis Assignment- [License](#-license)
-
-- **Domain:** Cryptocurrency Trading Analytics
+This project analyzes **Bitcoin trader performance** on Hyperliquid DEX in relation to **market sentiment** (Fear & Greed Index). Combines statistical analysis with interactive visualizations for actionable trading insights.- [Overview](#-overview)
 
 - [Key Features](#-key-features)
 
-### Research Questions
+**Author:** Ayush Singh | **Email:** Ayusingh693@gmail.com | **Phone:** +91 7031678999- [Quick Start](#-quick-start)
+
+- [Data Sources](#-data-sources)
+
+---- [Technologies](#-technologies)
+
+- [Author](#-author)
+
+## ✨ Key Features
 
 ---
 
-1. How does market sentiment correlate with trading profitability?
+- ✅ **15 Analysis Sections** covering sentiment-based trading
 
-2. Do traders behave differently during extreme market conditions?- [Live Demo](#-live-demo)### Prerequisites
-
-3. What are the optimal sentiment conditions for risk-adjusted returns?
-
-4. How do trading fees impact profitability across sentiment regimes?## 🎯 Overview
-
----- [Installation](#-installation)
-
-## ✨ Key FeaturesThis project analyzes the relationship between **Bitcoin trader performance** on Hyperliquid DEX and **market sentiment** measured by the Fear & Greed Index. It combines statistical analysis with interactive visualizations to discover actionable trading insights.
-
-### Comprehensive Analysis- [Usage](#-usage)- Python 3.8 or higher
-
-- ✅ **15 Analysis Sections** covering sentiment-based trading### Project Context
-
-- ✅ **40+ Interactive Visualizations** using Plotly
-
-- ✅ **Statistical Testing** (ANOVA, Chi-Square, Mann-Whitney U)- [Project Structure](#-project-structure)- pip package manager
-
-- ✅ **Risk Metrics** (Sharpe Ratio, Volatility, Drawdown)
-
-- ✅ **Time Series Analysis** with rolling statistics- **Author:** Ayush Singh
-
-### Interactive Dashboard- **Email:** Ayusingh693@gmail.com- [Data Sources](#-data-sources)
-
-- 🎯 **5 Specialized Pages** for different perspectives- **Phone:** +91 7031678999
-
-- 🔄 **Real-time Filtering** by date, sentiment, side
-
-- 📈 **Dynamic Visualizations** updating on user selection- **Purpose:** Advanced Data Analysis Assignment- [Analysis Methodology](#-analysis-methodology)### Installation
-
-- 💾 **Data Export** for filtered datasets
-
-- 📱 **Responsive Design** for desktop and tablet- **Domain:** Cryptocurrency Trading Analytics
-
----- [Dashboard Features](#-dashboard-features)
-
-## 🌐 Live Demo### Research Questions
-
-**🔗 [Access the Dashboard](https://crypto-market-analysis.streamlit.app)**- [Technologies Used](#️-technologies-used)1. **Install required packages:**
-
-Features:1. How does market sentiment correlate with trading profitability?
-
-- Real-time data filtering2. Do traders behave differently during extreme market conditions?- [Results & Insights](#-results--insights)
-
-- Complete assignment explanation
-
-- Export functionality3. What are the optimal sentiment conditions for risk-adjusted returns?
-
-- Mobile-responsive interface
-
-4. How do trading fees impact profitability across sentiment regimes?- [Troubleshooting](#-troubleshooting)```powershell
-
----
-
----- [Contributing](#-contributing)pip install -r requirements.txt
-
-## 🛠️ Installation
-
-## ✨ Key Features- [Author](#-author)```
-
-### Prerequisites
-
-### Comprehensive Analysis- [License](#-license)
-
-- Python 3.8+
-
-- pip package manager- ✅ **15 Analysis Sections** covering sentiment-based trading
-
-- Git
-
-- ✅ **40+ Interactive Visualizations** using PlotlyOr install packages individually:
-
-### Quick Start
+- ✅ **40+ Interactive Visualizations** using Plotly## 🎯 Overview
 
 - ✅ **Statistical Testing** (ANOVA, Chi-Square, Mann-Whitney U)
 
-``````bash
+- ✅ **Risk Metrics** (Sharpe Ratio, Volatility, Drawdown)This project analyzes the relationship between **Bitcoin trader performance** on Hyperliquid DEX and **market sentiment** measured by the Fear & Greed Index. It combines statistical analysis with interactive visualizations to discover actionable trading insights.
 
-# Clone repository- ✅ **Risk Metrics** (Sharpe Ratio, Volatility, Drawdown)---
+- 🎯 **5 Specialized Dashboard Pages**
 
-git clone https://github.com/ayusingh-54/CRYPTO-MARKET-ANALYSIS.git
+- 🔄 **Real-time Filtering** by date, sentiment, side- [Technologies](#-technologies)## 📋 Table of Contents```
 
-cd CRYPTO-MARKET-ANALYSIS- ✅ **Time Series Analysis** with rolling statistics
+- 📈 **Dynamic Visualizations** updating on selection
+
+- 💾 **Data Export** functionality### Project Context
 
 
 
-# Install dependencies`````powershell
+---- [Troubleshooting](#-troubleshooting)
+
+
+
+## 🚀 Quick Start- **Author:** Ayush Singh
+
+
+
+```powershell- **Email:** Ayusingh693@gmail.com- [Author](#-author)- [Overview](#-overview)## 🚀 Quick Start
+
+# Clone repository
+
+git clone https://github.com/ayusingh-54/CRYPTO-MARKET-ANALYSIS.git- **Phone:** +91 7031678999
+
+cd CRYPTO-MARKET-ANALYSIS
+
+- **Purpose:** Advanced Data Analysis Assignment- [License](#-license)
+
+# Install dependencies
+
+pip install -r requirements.txt- **Domain:** Cryptocurrency Trading Analytics
+
+
+
+# Run Jupyter Notebook- [Key Features](#-key-features)
+
+jupyter notebook trader_sentiment_analysis.ipynb
+
+### Research Questions
+
+# Or run Streamlit Dashboard
+
+streamlit run streamlit_app_final.py---
+
+```
+
+1. How does market sentiment correlate with trading profitability?
+
+---
+
+2. Do traders behave differently during extreme market conditions?- [Live Demo](#-live-demo)### Prerequisites
+
+## 📊 Data Sources
+
+3. What are the optimal sentiment conditions for risk-adjusted returns?
+
+### Fear & Greed Index
+
+- **Source:** Alternative.me API4. How do trading fees impact profitability across sentiment regimes?## 🎯 Overview
+
+- **Period:** 2024 (365 daily observations)
+
+- **Range:** 0-100 (Extreme Fear → Extreme Greed)---- [Installation](#-installation)
+
+
+
+### Trading Data## ✨ Key FeaturesThis project analyzes the relationship between **Bitcoin trader performance** on Hyperliquid DEX and **market sentiment** measured by the Fear & Greed Index. It combines statistical analysis with interactive visualizations to discover actionable trading insights.
+
+- **Source:** Hyperliquid DEX
+
+- **Period:** December 2024### Comprehensive Analysis- [Usage](#-usage)- Python 3.8 or higher
+
+- **Records:** 211,226 trades
+
+- **Columns:** Account, Size USD, Side, Timestamp, Closed PnL, Fee- ✅ **15 Analysis Sections** covering sentiment-based trading### Project Context
+
+
+
+---- ✅ **40+ Interactive Visualizations** using Plotly
+
+
+
+## 🎨 Dashboard Pages- ✅ **Statistical Testing** (ANOVA, Chi-Square, Mann-Whitney U)- [Project Structure](#-project-structure)- pip package manager
+
+
+
+1. **📋 Assignment Details** - Project overview and objectives- ✅ **Risk Metrics** (Sharpe Ratio, Volatility, Drawdown)
+
+2. **🏠 Dashboard** - Metrics, distributions, and time series
+
+3. **📊 Advanced Analytics** - Statistical tests and correlations- ✅ **Time Series Analysis** with rolling statistics- **Author:** Ayush Singh
+
+4. **📈 Risk Analysis** - Risk-adjusted performance metrics
+
+5. **🔍 Deep Dive** - Granular trade-level analysis### Interactive Dashboard- **Email:** Ayusingh693@gmail.com- [Data Sources](#-data-sources)
+
+
+
+---- 🎯 **5 Specialized Pages** for different perspectives- **Phone:** +91 7031678999
+
+
+
+## 🛠️ Technologies- 🔄 **Real-time Filtering** by date, sentiment, side
+
+
+
+| Technology | Version | Purpose |- 📈 **Dynamic Visualizations** updating on user selection- **Purpose:** Advanced Data Analysis Assignment- [Analysis Methodology](#-analysis-methodology)### Installation
+
+|-----------|---------|---------|
+
+| Python | 3.8+ | Core language |- 💾 **Data Export** for filtered datasets
+
+| Streamlit | 1.28+ | Dashboard framework |
+
+| Pandas | 2.0+ | Data manipulation |- 📱 **Responsive Design** for desktop and tablet- **Domain:** Cryptocurrency Trading Analytics
+
+| Plotly | 5.17+ | Interactive visualizations |
+
+| SciPy | 1.10+ | Statistical analysis |---- [Dashboard Features](#-dashboard-features)
+
+| scikit-learn | 1.3+ | ML utilities |
+
+## 🌐 Live Demo### Research Questions
+
+---
+
+**🔗 [Access the Dashboard](https://crypto-market-analysis.streamlit.app)**- [Technologies Used](#️-technologies-used)1. **Install required packages:**
+
+## 🔧 Troubleshooting
+
+Features:1. How does market sentiment correlate with trading profitability?
+
+**ModuleNotFoundError: scipy**
+
+```powershell- Real-time data filtering2. Do traders behave differently during extreme market conditions?- [Results & Insights](#-results--insights)
+
+pip install scipy>=1.10.0
+
+```- Complete assignment explanation
+
+
+
+**Port already in use**- Export functionality3. What are the optimal sentiment conditions for risk-adjusted returns?
+
+```powershell
+
+streamlit run streamlit_app_final.py --server.port 8080- Mobile-responsive interface
+
+```
+
+4. How do trading fees impact profitability across sentiment regimes?- [Troubleshooting](#-troubleshooting)```powershell
+
+**CSV file not found**  
+
+Ensure `fear_greed_index.csv` and `historical_data.csv` are in the same directory.---
+
+
+
+------- [Contributing](#-contributing)pip install -r requirements.txt
+
+
+
+## 👤 Author## 🛠️ Installation
+
+
+
+**Ayush Singh**## ✨ Key Features- [Author](#-author)```
+
+- 📧 Email: [Ayusingh693@gmail.com](mailto:Ayusingh693@gmail.com)
+
+- 📱 Phone: +91 7031678999### Prerequisites
+
+- 💼 GitHub: [@ayusingh-54](https://github.com/ayusingh-54)
+
+- 🔗 Project: [CRYPTO-MARKET-ANALYSIS](https://github.com/ayusingh-54/CRYPTO-MARKET-ANALYSIS)### Comprehensive Analysis- [License](#-license)
+
+
+
+---- Python 3.8+
+
+
+
+## 📄 License- pip package manager- ✅ **15 Analysis Sections** covering sentiment-based trading
+
+
+
+MIT License - Free for commercial use, modification, and distribution.- Git
+
+
+
+---- ✅ **40+ Interactive Visualizations** using PlotlyOr install packages individually:
+
+
+
+## ⚠️ Disclaimer### Quick Start
+
+
+
+**For educational purposes only.** Not financial advice. Cryptocurrency trading involves substantial risk.- ✅ **Statistical Testing** (ANOVA, Chi-Square, Mann-Whitney U)
+
+
+
+---``````bash
+
+
+
+<div align="center"># Clone repository- ✅ **Risk Metrics** (Sharpe Ratio, Volatility, Drawdown)---
+
+
+
+**⭐ Star this repository if you found it helpful!**git clone https://github.com/ayusingh-54/CRYPTO-MARKET-ANALYSIS.git
+
+
+
+Made with ❤️ by [Ayush Singh](https://github.com/ayusingh-54)cd CRYPTO-MARKET-ANALYSIS- ✅ **Time Series Analysis** with rolling statistics
+
+
+
+*Last Updated: November 2025*
+
+
+
+</div># Install dependencies`````powershell
+
 
 pip install -r requirements.txt
 
