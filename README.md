@@ -1,10 +1,6 @@
 # 🚀 Bitcoin Trader Performance vs Market Sentiment Analysis# 🚀 Bitcoin Trader Performance vs Market Sentiment Analysis
 
-
-
 <div align="center"><div align="center">
-
-
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://crypto-market-analysis.streamlit.app)[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://crypto-market-analysis.streamlit.app)
 
@@ -12,27 +8,15 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-
-**Advanced analytics platform analyzing Bitcoin trading performance and market sentiment****Advanced analytics platform analyzing Bitcoin trading performance and market sentiment**
-
-
+**Advanced analytics platform analyzing Bitcoin trading performance and market sentiment\*\***Advanced analytics platform analyzing Bitcoin trading performance and market sentiment\*\*
 
 [Live Demo](https://crypto-market-analysis.streamlit.app) • [Report Bug](../../issues) • [Request Feature](../../issues)[Live Demo](https://crypto-market-analysis.streamlit.app) • [Report Bug](../../issues) • [Request Feature](../../issues)
 
-
-
 </div></div>
 
-
-
-------
-
-
+---
 
 ## 🎯 Overview## 📋 Table of Contents
-
-
 
 This project analyzes **Bitcoin trader performance** on Hyperliquid DEX in relation to **market sentiment** (Fear & Greed Index). Combines statistical analysis with interactive visualizations for actionable trading insights.- [Overview](#-overview)
 
@@ -66,15 +50,9 @@ This project analyzes **Bitcoin trader performance** on Hyperliquid DEX in relat
 
 - 💾 **Data Export** functionality### Project Context
 
-
-
 ---- [Troubleshooting](#-troubleshooting)
 
-
-
 ## 🚀 Quick Start- **Author:** Ayush Singh
-
-
 
 ```powershell- **Email:** Ayusingh693@gmail.com- [Author](#-author)- [Overview](#-overview)## 🚀 Quick Start
 
@@ -122,8 +100,6 @@ streamlit run streamlit_app_final.py---
 
 - **Range:** 0-100 (Extreme Fear → Extreme Greed)---- [Installation](#-installation)
 
-
-
 ### Trading Data## ✨ Key FeaturesThis project analyzes the relationship between **Bitcoin trader performance** on Hyperliquid DEX and **market sentiment** measured by the Fear & Greed Index. It combines statistical analysis with interactive visualizations to discover actionable trading insights.
 
 - **Source:** Hyperliquid DEX
@@ -134,15 +110,9 @@ streamlit run streamlit_app_final.py---
 
 - **Columns:** Account, Size USD, Side, Timestamp, Closed PnL, Fee- ✅ **15 Analysis Sections** covering sentiment-based trading### Project Context
 
-
-
 ---- ✅ **40+ Interactive Visualizations** using Plotly
 
-
-
 ## 🎨 Dashboard Pages- ✅ **Statistical Testing** (ANOVA, Chi-Square, Mann-Whitney U)- [Project Structure](#-project-structure)- pip package manager
-
-
 
 1. **📋 Assignment Details** - Project overview and objectives- ✅ **Risk Metrics** (Sharpe Ratio, Volatility, Drawdown)
 
@@ -154,15 +124,9 @@ streamlit run streamlit_app_final.py---
 
 5. **🔍 Deep Dive** - Granular trade-level analysis### Interactive Dashboard- **Email:** Ayusingh693@gmail.com- [Data Sources](#-data-sources)
 
-
-
 ---- 🎯 **5 Specialized Pages** for different perspectives- **Phone:** +91 7031678999
 
-
-
 ## 🛠️ Technologies- 🔄 **Real-time Filtering** by date, sentiment, side
-
-
 
 | Technology | Version | Purpose |- 📈 **Dynamic Visualizations** updating on user selection- **Purpose:** Advanced Data Analysis Assignment- [Analysis Methodology](#-analysis-methodology)### Installation
 
@@ -192,7 +156,7 @@ Features:1. How does market sentiment correlate with trading profitability?
 
 **ModuleNotFoundError: scipy**
 
-```powershell- Real-time data filtering2. Do traders behave differently during extreme market conditions?- [Results & Insights](#-results--insights)
+````powershell- Real-time data filtering2. Do traders behave differently during extreme market conditions?- [Results & Insights](#-results--insights)
 
 pip install scipy>=1.10.0
 
@@ -206,23 +170,17 @@ pip install scipy>=1.10.0
 
 streamlit run streamlit_app_final.py --server.port 8080- Mobile-responsive interface
 
-```
+````
 
 4. How do trading fees impact profitability across sentiment regimes?- [Troubleshooting](#-troubleshooting)```powershell
 
-**CSV file not found**  
+**CSV file not found**
 
 Ensure `fear_greed_index.csv` and `historical_data.csv` are in the same directory.---
 
-
-
 ------- [Contributing](#-contributing)pip install -r requirements.txt
 
-
-
 ## 👤 Author## 🛠️ Installation
-
-
 
 **Ayush Singh**## ✨ Key Features- [Author](#-author)```
 
@@ -234,54 +192,29 @@ Ensure `fear_greed_index.csv` and `historical_data.csv` are in the same director
 
 - 🔗 Project: [CRYPTO-MARKET-ANALYSIS](https://github.com/ayusingh-54/CRYPTO-MARKET-ANALYSIS)### Comprehensive Analysis- [License](#-license)
 
-
-
 ---- Python 3.8+
-
-
 
 ## 📄 License- pip package manager- ✅ **15 Analysis Sections** covering sentiment-based trading
 
-
-
 MIT License - Free for commercial use, modification, and distribution.- Git
-
-
 
 ---- ✅ **40+ Interactive Visualizations** using PlotlyOr install packages individually:
 
-
-
 ## ⚠️ Disclaimer### Quick Start
-
-
 
 **For educational purposes only.** Not financial advice. Cryptocurrency trading involves substantial risk.- ✅ **Statistical Testing** (ANOVA, Chi-Square, Mann-Whitney U)
 
-
-
 ---``````bash
-
-
 
 <div align="center"># Clone repository- ✅ **Risk Metrics** (Sharpe Ratio, Volatility, Drawdown)---
 
-
-
 **⭐ Star this repository if you found it helpful!**git clone https://github.com/ayusingh-54/CRYPTO-MARKET-ANALYSIS.git
-
-
 
 Made with ❤️ by [Ayush Singh](https://github.com/ayusingh-54)cd CRYPTO-MARKET-ANALYSIS- ✅ **Time Series Analysis** with rolling statistics
 
-
-
-*Last Updated: November 2025*
-
-
+_Last Updated: November 2025_
 
 </div># Install dependencies`````powershell
-
 
 pip install -r requirements.txt
 
@@ -1504,3 +1437,4 @@ Feel free to:
 ### Page 3: 📊 Advanced Analytics**Last Updated:** November 2025
 
 #
+``````
